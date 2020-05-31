@@ -1,9 +1,9 @@
 # Terraform test setup
 
-##Goal
+## Goal
 Setup a simple server on AWS provisioned by Terraform, that upon request would return Hello World message.
 
-##How to run  
+## How to run  
 Set up environment variables
 
 ```
@@ -65,7 +65,7 @@ make infra-destroy
 ```
 
 
-##Debugging
+## Debugging
 For the sake of testing I was SSHing to the instance with
 ```
 ssh -i "{file}" ubuntu@{address}
